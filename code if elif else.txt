@@ -1,0 +1,54 @@
+a = 1
+b = 2
+c = 3
+d = 4
+if a > b:
+    print("invalid 1")
+if a > c:
+    print("invalid 2")
+if a > d:
+    print("invalid 3")
+if b > a:
+    print("valid 1")
+if b > c:
+    print("invalid 4")
+if b > d:
+    print("invalid 5")
+if c > a:
+    print("valid 2")
+if c > b:
+    print("valid 3")
+if c > d:
+    print("invalid 6")
+if d > a:
+    print("valid 4")
+if d > b:
+    print("valid 5")
+if d > c:
+    print("valid 6")
+elif a == b:
+    print("invalid 7")
+elif a == c:
+    print("invalid 8")
+elif a == d:
+    print("invalid 9")
+elif b == a:
+    print("invalid 10")
+elif b == c:
+    print("invalid 11")
+elif b == d:
+    print("invalid 12")
+elif c == a:
+    print("invalid 13")
+elif c == b:
+    print("invalid 14")
+elif c == d:
+    print("invalid 15")
+elif d == a:
+    print("invalid 16")
+elif d == b:
+    print("invalid 17")
+elif d == c:
+    print("invalid 18")
+else:
+    print("valid")
